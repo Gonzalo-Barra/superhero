@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Superheroe</title>
+</head>
+
+<body>
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                 navbar                                  -->
+    <!-- ----------------------------------------------------------------------- -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/img/sh2.jpg" width="40" height="40" alt="">
+            SuperHero
+        </a>
+
+    </nav>
+
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                                  body                                   -->
+    <!-- ----------------------------------------------------------------------- -->
+    <section class="container">
+        <div>
+            <div>
+
+                <img class="imagen pt-4" src="./assets/img/sh1.jpg" alt="">
+                <h1>Encuentra tu SuperHero</h1>
+                <h5>Ingresa el número del SuperHero a buscar</h5>
+                <form action="">
+                    <div class="row justify-content-center">
+                        <input id="input_busqueda" type="text" class="form-control"
+                            placeholder="Ingrese un número entre el 1 al 731">
+                    </div>
+                    <div class="buttons pt-4 align-self-center">
+                        <button id="buscar" type="button" class="btn btn-primary btn-lg btn-block">Buscar</button>
+                        <button id="limpiar" type="button" class="btn btn-primary btn-lg btn-block">Limpiar</button>
+                    </div>
+                </form>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- --------------------------------- respuesta api --------------------------------- -->
+    <section>
+        <div class="row pt-5 mt-5">
+
+            <div class="col justify-content-center">
+                <div id="card">
+                </div>
+            </div>
+            <div class="col justify-content-center mt-4">
+                <div id="stats" class="card-stats">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------------ Librerías Ajax, Jquery, JSCanvas ------------------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+h1,h5{
+    text-align: center;
+}
+
+.imagen{
+    display:block;
+    margin:auto;
+    max-width:50%;
+}
+
+.card-body{
+   text-align: center;
+}
+
+.card-img-top{
+    max-width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.card-stats{
+    padding-top:350px;
+}
